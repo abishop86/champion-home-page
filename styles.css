@@ -24,17 +24,32 @@
   --space-md: 2rem;
 }
 
+body {
+  font-family:
+    Ubuntu,
+    system-ui,
+    -apple-system,
+    sans-serif;
+  line-height: 1.6;
+}
+
 .container {
   max-width: 95%;
   margin: 0 auto;
   padding: 0 var(--space-md);
+  align-items: center;
 }
 
 btn-primary {
   box-sizing: border-box;
-  border: 0;
 }
 
 section {
-  display: primary;
+  display: block;
+}
+
+hero {
+  padding: 2rem;
+  margin: 1rem;
+  border: 0.5rem;
 }
