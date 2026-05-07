@@ -37,6 +37,9 @@ body {
   max-width: 95%;
   margin: 0 auto;
   padding: 0 var(--space-md);
+}
+
+header .container {
   align-items: center;
 }
 
